@@ -1,0 +1,13 @@
+node_modules/
+auth_info/
+package-lock.json
+__pycache__/
+*.pyc
+.env
+venv/
+*.gguf
+models/
+llama.cpp/
+*.log
+brain.log
+vault/context.json
