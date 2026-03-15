@@ -47,8 +47,8 @@ mkdir -p $MODEL_DIR
 
 if [ ! -f "$MODEL_PATH" ]; then
     echo "📥 Downloading lightweight 1.5B Model (Optimized for Moto G32)..."
-    # Using a high-quality, small GGUF from HuggingFace
-    wget -O "$MODEL_PATH" https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GGUF/resolve/main/qwen2-1.5b-instruct-q4_k_m.gguf
+    # Using a high-quality, small GGUF from HuggingFace (bartowski's mirror)
+    wget -O "$MODEL_PATH" https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf
 else
     echo "✅ Model already exists, skipping download."
 fi
