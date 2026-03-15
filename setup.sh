@@ -19,7 +19,6 @@ pkg install -y git nodejs python wget cmake ninja clang binutils build-essential
 
 # 3. Setup Python Environment
 echo "🐍 Setting up Python Brain dependencies..."
-pip install --upgrade pip
 pip install flask requests python-dotenv googlesearch-python beautifulsoup4
 
 # 4. Setup Node.js Gateway
